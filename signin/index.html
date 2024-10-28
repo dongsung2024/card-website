@@ -6,6 +6,7 @@
     <title>card website</title>
     <!--  style link -->
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/signin.css">
 </head>
 
 <body>
@@ -13,14 +14,14 @@
 <header class="header">
 
     <section class="flex">
-        <a href="#" class="logo"><i class="fas fa-credit-card"></i>logo</a>
+        <a href="/" class="logo"><i class="fas fa-credit-card"></i>logo</a>
         
         <nav  class="navbar"> 
-            <a href="#home">home</a>
-            <a href="#about">About</a>
-            <a href="#option">Option</a>
-            <a href="#contact">Contact</a>
-            <a href="#blog">Blog</a>
+            <a href="/#home">home</a>
+            <a href="/#about">About</a>
+            <a href="/#option">Option</a>
+            <a href="/#contact">Contact</a>
+            <a href="/#blog">Blog</a>
         </nav>
         <a href="/signin" class="btn">Sign in</a>
         <!-- 1000이하 일때 메뉴 작업 -->
@@ -32,9 +33,26 @@
 <!-- //header section-->
 
 <!-- login -->
-<section class="signin" style="margin-top: 10rem;">
+<div class="signin">
+    <section>
     <div class="heading">sign <span>in</span></div>
-</section>
+    <div class="signin_card">
+        <h2><span>Welcome!</span> 스타벅스 코리아에 오신 것을 환영합니다.</h2>
+        <form action="">
+            <input type="text" placeholder="아이디를 입력하세요">
+            <input type="text" placeholder="비밀번호를 입력하세요">
+            <input type="submit" value="로그인">
+            <p>* 타 사이트와 비밀번호를 동일하게 사용할 경우 도용의 위험이 있으므로, 정기적인 비밀번호 변경을 해주시길 바랍니다.<br>
+            </p>
+        </form>
+       <div class="action">
+            <a href="#">회원가입</a>
+            <a href="#">아이디 찾기</a>
+            <a href="#">비밀번호 찾기</a>
+       </div>
+    </div>
+   </section> 
+</div>
 
 <!-- //login -->
 
